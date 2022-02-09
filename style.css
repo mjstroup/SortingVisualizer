@@ -12,18 +12,14 @@
 h1 {
     color: white;
 }
-#sorts {
-    font-size: 50px;
-    float: right;
-}
 #title {
     position: absolute;
     left: 430px;
-    font-size: 60px;
+    font-size: 5`0px;
 }
 #array_size {
     position: relative;
-    top: 5px;
+    top: -12px;
     left: 10px;
 }
 #reset_array {
@@ -31,11 +27,11 @@ h1 {
     color:white;
     border: none;
     font-size: 24px;
-    width: 220px;
+    width: 250px;
     height: 60px;
     position:relative;
-    top: 55px;
-    left: -300px;
+    top: 70px;
+    left: 700px;
 }
 #reset_array:hover {
     border: 1px solid black;
@@ -57,7 +53,7 @@ h1 {
     width: 190px;
     height: 60px;
     position:relative;
-    left: 940px;
+    left: -20px;
     top: 10px;
 }
 .algo:hover {
