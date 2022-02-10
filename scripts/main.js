@@ -91,8 +91,8 @@ function run() {
             selection();
             break;
     }
-    delayTotal = 0;
     enable();
+    delayTotal = 0;
 }
 
 var delay = 100000/(array_size*array_speed);
