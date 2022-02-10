@@ -1,3 +1,8 @@
+/**
+ * @author Matthew Stroup
+ *      mjstroup@purdue.edu
+ * @version February 10th, 2022
+ */
 //element variable
 var arrayElement = document.getElementById('array_size');
 //size variable
