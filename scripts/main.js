@@ -3,6 +3,9 @@ var arrayElement = document.getElementById('array_size');
 //size variable
 var array_size = arrayElement.value;
 var reset_array = document.getElementById('reset_array');
+//speed variable
+var speedElement = document.getElementById('array_speed');
+var array_speed = 50*Math.pow(speedElement.value,2);
 
 //array container for graphics
 var arrayGraphic = document.getElementById('array');
@@ -29,9 +32,14 @@ function generate() {
 arrayElement.addEventListener("input", update);
 function update() {
     array_size = arrayElement.value;
-    delay = 100/array_size;
+    delay = delay = 100000/(array_size*array_speed);
     generate();
 }
+speedElement.addEventListener("input", () => {
+    array_speed = 50*Math.pow(speedElement.value,2);
+    console.log(array_speed);
+    delay = delay = 100000/(array_size*array_speed);
+});
 
 window.onload = update();
 
@@ -48,6 +56,7 @@ function disable() {
     }
     arrayElement.disabled = true;
     reset_array.disabled = true;
+    speedElement.disabled = true;
 }
 
 function enable() {
@@ -58,6 +67,7 @@ function enable() {
         }
         arrayElement.disabled = false;
         reset_array.disabled = false;
+        speedElement.disabled = false;
     },delayTotal+=delay);
 }
 
@@ -67,7 +77,7 @@ function run() {
     switch (this.innerHTML) {
         case 'Bubble Sort':
             bubble();
-            break
+            break;
         case 'Insertion Sort':
             insertion();
             break;
@@ -81,10 +91,11 @@ function run() {
             selection();
             break;
     }
+    delayTotal = 0;
     enable();
 }
 
-var delay = 100/array_size;
+var delay = 100000/(array_size*array_speed);
 var delayTotal = 0;
 //to be called in each sort when we want to change values of each div
 function update_div(div, height, color) {
