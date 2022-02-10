@@ -5,7 +5,7 @@ var array_size = arrayElement.value;
 var reset_array = document.getElementById('reset_array');
 //speed variable
 var speedElement = document.getElementById('array_speed');
-var array_speed = 50*Math.pow(speedElement.value,2);
+var array_speed = 20*Math.pow(speedElement.value,2);
 
 //array container for graphics
 var arrayGraphic = document.getElementById('array');
@@ -36,7 +36,7 @@ function update() {
     generate();
 }
 speedElement.addEventListener("input", () => {
-    array_speed = 50*Math.pow(speedElement.value,2);
+    array_speed = 20*Math.pow(speedElement.value,2);
     console.log(array_speed);
     delay = delay = 100000/(array_size*array_speed);
 });
