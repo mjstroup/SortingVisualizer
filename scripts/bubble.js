@@ -22,6 +22,7 @@ function bubble() {
                 update_div(divs[j+1], sizes[j+1], "yellow");
             }
             update_div(divs[j], sizes[j], "#1a8dff");
+            //update_div(divs[j+1], sizes[j+1], "#1a8dff");
         }
         update_div(divs[j], sizes[j], "#50C878");
     }   

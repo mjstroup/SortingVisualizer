@@ -10,7 +10,7 @@ function insertion() {
             update_div(divs[j+1], sizes[j+1], "yellow");
             sizes[j+1] = sizes[j];
             //set back to blue after swapping, also update heights
-            update_div(divs[j], sizes[j], "#1a8dff");
+            update_div(divs[j], key, "#1a8dff");
             update_div(divs[j+1], sizes[j+1], "#1a8dff");
             j--;
         }
