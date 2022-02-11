@@ -30,7 +30,7 @@ function generate() {
         divs[i]=document.createElement("div");
         //add divs to graphic
         arrayGraphic.appendChild(divs[i]);
-        divs[i].style="background-color:#1a8dff; margin:0% 0.1%; width:" + (100/array_size) + "%; height:" + (sizes[i]) + "%;";
+        divs[i].style="background-color:#1a8dff; margin:0% 0.05%; width:" + (100/array_size) + "%; height:" + (sizes[i]) + "%;";
     }
 }
 
@@ -125,7 +125,7 @@ var delayTotal = 0;
 //to be called in each sort when we want to change values of each div
 function update_div(div, height, color) {
     window.setTimeout(() => {
-        div.style="background-color:" + color +"; margin:0% 0.1%; width:" + (100/array_size) + "%; height:" + height + "%";
+        div.style="background-color:" + color +"; margin:0% 0.05%; width:" + (100/array_size) + "%; height:" + height + "%";
     }, delayTotal);
     delayTotal+=delay;
 }
