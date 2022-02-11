@@ -10,7 +10,7 @@ var array_size = arrayElement.value;
 var reset_array = document.getElementById('reset_array');
 //speed variable
 var speedElement = document.getElementById('array_speed');
-var array_speed = 20*Math.pow(speedElement.value,2);
+var array_speed;
 
 //array container for graphics
 var arrayGraphic = document.getElementById('array');
@@ -40,13 +40,30 @@ function update() {
     delay = delay = 100000/(array_size*array_speed);
     generate();
 }
-speedElement.addEventListener("input", () => {
-    array_speed = 20*Math.pow(speedElement.value,2);
-    console.log(array_speed);
+speedElement.addEventListener("input", updateSpeed);
+function updateSpeed() {
+    switch (parseInt(speedElement.value)) {
+        case 1: 
+        array_speed = 30;
+        break;
+        case 2: 
+        array_speed = 100;
+        break;
+        case 3: 
+        array_speed = 1000;
+        break;
+        case 4: 
+        array_speed = 3000;
+        break;
+        case 5: 
+        array_speed = 5000;
+        break;
+    }
     delay = delay = 100000/(array_size*array_speed);
-});
+}
 
 window.onload = update();
+window.onload = updateSpeed();
 
 var algos = document.querySelectorAll(".buttons button");
 
@@ -82,6 +99,9 @@ function run() {
     switch (this.innerHTML) {
         case 'Bubble Sort':
             bubble();
+            break;
+        case 'Heap Sort':
+            heap();
             break;
         case 'Insertion Sort':
             insertion();
