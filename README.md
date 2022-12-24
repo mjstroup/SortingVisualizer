@@ -8,7 +8,7 @@ This project was a way for me to experiment with web tool basics in a fun and he
 
 # How to run:
 
-Project is availible on Github Pages at https://mjstroup.github.io/SortingVisualizer/
+This project is availible for use on Github Pages at https://mjstroup.github.io/SortingVisualizer/
 
 # Credits
 
