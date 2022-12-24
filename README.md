@@ -1,5 +1,7 @@
 # [Sorting Visualizer](https://mjstroup.github.io/SortingVisualizer/)
 
+# Overview
+
 ![Image](https://github.com/mjstroup/Images/blob/main/sorting.png)
 
 Utilizing HTML, JS, and CSS, this project is a web tool used to help visualize common sorting algorithms.
