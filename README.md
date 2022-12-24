@@ -14,7 +14,7 @@ This project is availible for use on Github Pages at https://mjstroup.github.io/
 
 # Credits
 
-* Author: [Matthew Stroup](https://github.com/mjstroup)
+* [Matthew Stroup](https://github.com/mjstroup)
   * [LinkedIn](https://www.linkedin.com/in/mjstroup)
   * mjstroup@purdue.edu
 
