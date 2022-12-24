@@ -8,7 +8,7 @@ Utilizing HTML, JS, and CSS, this project is a web tool used to help visualize c
 
 This project was a way for me to experiment with web tool basics in a fun and helpful way along with refining my understanding of these algorithms. Sorting algorithms are one of the most difficult hurdles in a data structures and algorithms course, and this tool is meant to help struggling students visualize these tough algorithms. 
 
-# How to run
+# How to Run
 
 This project is availible for use on Github Pages at https://mjstroup.github.io/SortingVisualizer/
 
