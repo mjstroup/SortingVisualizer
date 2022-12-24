@@ -18,4 +18,4 @@ This project is availible for use on Github Pages at https://mjstroup.github.io/
   * [LinkedIn](https://www.linkedin.com/in/mjstroup)
   * mjstroup@purdue.edu
 
-Idea credits to Clément Mihailescu on YouTube: https://www.youtube.com/watch?v=n4t_-NjY_Sg
+Idea credits to Clément Mihailescu on [YouTube](https://www.youtube.com/watch?v=n4t_-NjY_Sg)
