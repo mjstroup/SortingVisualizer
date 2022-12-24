@@ -1,4 +1,6 @@
+<p align="center">
 # Sorting Visualizer
+</p>
 
 ![Image](https://github.com/mjstroup/Images/blob/main/sorting.png)
 
