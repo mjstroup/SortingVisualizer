@@ -14,8 +14,8 @@ This project is availible for use on Github Pages at https://mjstroup.github.io/
 
 # Credits
 
-author: Matthew Stroup
-
-email: mjstroup@purdue.edu
+* Author: [Matthew Stroup](https://github.com/mjstroup)
+  * [LinkedIn](https://www.linkedin.com/in/mjstroup)
+  * Email: mjstroup@purdue.edu
 
 Idea credits to Clément Mihailescu on YouTube: https://www.youtube.com/watch?v=n4t_-NjY_Sg
