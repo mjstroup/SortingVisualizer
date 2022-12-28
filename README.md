@@ -1,6 +1,6 @@
 # [Sorting Visualizer](https://mjstroup.github.io/SortingVisualizer/)
 
-![Image](https://github.com/mjstroup/Images/blob/main/sorting.png)
+![Image](https://github.com/mjstroup/Images/blob/main/Sorting/sorting.png)
 
 # Overview
 
